@@ -1,0 +1,33 @@
+.QuoteContainer {
+  width: 70%;
+  margin: 1.75rem auto;
+  text-align: center;
+}
+
+.QuoteContainer figure {
+  border-radius: 0.35rem;
+  border: 0.125rem solid var(--Snow);
+}
+
+.QuoteContainer blockquote {
+  margin: 0;
+  padding-bottom: 0.25rem;
+}
+
+.QuoteContainer blockquote p {
+  padding: 1rem;
+  background: #161d2b41;
+  border-radius: 0.35rem;
+}
+
+.QuoteContainer blockquote p::before {
+  content: '\201C';
+}
+
+.QuoteContainer blockquote p::after {
+  content: '\201D';
+}
+
+.QuoteContainer figcaption {
+  padding-bottom: 0.5rem;
+}

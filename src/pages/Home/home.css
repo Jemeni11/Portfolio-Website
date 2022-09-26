@@ -1,0 +1,32 @@
+.homePageSection {
+  height: 85vh;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.homeTextContainer {
+  flex: 1;
+}
+
+.animationContainer {
+  flex: 1;
+  height: 100%;
+  /* background-color: aqua; */
+}
+
+.revealBox {
+  position: relative;
+  overflow: hidden;
+  height: 1.5rem;
+}
+
+.revealBoxItem {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: -2;
+  /* text-align: center; */
+}
+

@@ -1,0 +1,80 @@
+:root {
+  font-family: "PT Sans", Helvetica, sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  --DarkGunmetal: #161d2b;
+  --TickleMePink: #ff80b0;
+  --Snow: #fdfafd;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: var(--DarkGunmetal);
+  color: var(--Snow);
+  min-width: 320px;
+  min-height: 100vh;
+}
+
+#root {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.page {
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  margin: 0 auto;
+}
+
+.pageSection {
+  width: 97.5%;
+  margin-inline: auto;
+  padding-inline: 1rem;
+}
+
+.pageHeader1 {
+  font-size: 3rem;
+}
+
+.flex-container-align-center {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+}
+
+.textColorTickleMePink {
+  color: var(--TickleMePink);
+}
+
+/* .page > * {border: 1px solid firebrick} */
+
+a {
+  cursor: pointer;
+  color: var(--TickleMePink);
+  font-weight: 700;
+  font-size: 1.1rem;
+  text-decoration: none;
+}
+
+@media all and (max-width: 980px) {
+  .page {
+    width: 97.5%;
+    margin: 0.15rem auto;
+  }
+
+  .pageSection {
+    width: 100%;
+    padding-inline: 0.5rem;
+  }
+
+  .pageHeader1 {
+    font-size: 4rem;
+  }
+}

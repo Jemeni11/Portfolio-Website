@@ -1,0 +1,10 @@
+.toolsContainer {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(12rem, 1fr));
+  margin-bottom: 1rem;
+}
+
+.toolsIconTile {
+  display: flex;
+  align-items: center;
+}

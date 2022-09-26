@@ -1,0 +1,26 @@
+.cardLikeButton {
+  background-color: var(--DarkGunmetal);
+  border: none;
+  border-radius: 0.25rem;
+  width: 46%;
+  padding: 0.25rem 1.25rem;
+  color: var(--TickleMePink);
+  outline: 0.25rem solid var(--TickleMePink);
+  text-align: center;
+}
+
+.cardLikeButton * {
+  font-size: 0.9rem;
+  color: var(--TickleMePink);
+}
+
+.cardLikeButton:hover,
+.cardLikeButton:focus {
+  cursor: pointer;
+}
+
+@media screen and (max-width: 550px) {
+  .cardLikeButton {
+    padding: 0.4rem 1.5rem;
+  }
+}
