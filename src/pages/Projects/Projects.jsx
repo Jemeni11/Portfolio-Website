@@ -5,6 +5,8 @@ import { Quote, CardLikeButton } from "../../components";
 import ShoppingApp from "../../assets/projects/shoppingapp/Cart.svg";
 import AdviceGenerator from "../../assets/projects/advicegenerator/adviceGeneratorApp.svg";
 import TipCalculator from "../../assets/projects/tipcalculator/tipCalculatorApp.svg";
+import Splitter from "../../assets/projects/splitter/splitterScreenshot.svg";
+import IPTracker from "../../assets/projects/ipaddresstracker/IPAddressTrackerScreenshot.svg";
 import ExpenseTracker from "../../assets/projects/expensetracker/expenseTrackerScreenshot.svg";
 
 const projectsArray = [
@@ -54,18 +56,35 @@ const projectsArray = [
   },
   {
     id: 4,
-    coverImage: TipCalculator,
-    imageBackground: "#C5E4E7",
+    coverImage: Splitter,
+    imageBackground: "#161d2b",
     title: "Tip Calculator Mobile App (Splitter)",
     description: (
       <p className="projectCardInfoDescription">
-        Splitter helps to you calculate the tip and split the total bill between friends!
-        Use the <a href="https://expo.dev/client">Expo Go</a> app to open the live URL.
+        Splitter helps to you calculate the tip and split the total bill between
+        friends! Use the <a href="https://expo.dev/client">Expo Go</a> app to
+        open the live URL.
       </p>
     ),
     liveURL: "https://expo.dev/@jemeni11/tip-calculator",
+    sourceCodeURL: "https://github.com/Jemeni11/Tip-Splitter-Mobile-App",
+  },
+  {
+    id: 5,
+    coverImage: IPTracker,
+    imageBackground: "#161d2b",
+    title: "IP Address Tracker",
+    description: (
+      <p className="projectCardInfoDescription">
+        An IP Address Tracker app built with the{" "}
+        <a href="https://geo.ipify.org/">IP Geolocation API by IPify</a> for
+        getting the user's location and{" "}
+        <a href="https://leafletjs.com/">LeafletJS</a> to generate the map.
+      </p>
+    ),
+    liveURL: "https://jemeni-ip-tracker.netlify.app/",
     sourceCodeURL:
-      "https://github.com/Jemeni11/Tip-Splitter-Mobile-App",
+      "https://github.com/Jemeni11/FrontendMentor/tree/09-ip-address-tracker-main",
   },
 
   {
