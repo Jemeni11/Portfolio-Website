@@ -27,6 +27,7 @@
 .projectCardScreenShot {
   display: flex;
   justify-content: center;
+  align-items: center;
   width: 80%;
   margin-inline: 10%;
   flex: 1;
@@ -35,6 +36,7 @@
 .projectCardScreenShot img {
   width: 100%;
   max-height: 6.25rem;
+  object-fit: contain;
   /* height: 30%; */
 }
 

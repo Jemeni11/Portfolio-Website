@@ -7,6 +7,7 @@ import AdviceGenerator from "../../assets/projects/advicegenerator/adviceGenerat
 import TipCalculator from "../../assets/projects/tipcalculator/tipCalculatorApp.svg";
 import Splitter from "../../assets/projects/splitter/splitterScreenshot.svg";
 import IPTracker from "../../assets/projects/ipaddresstracker/IPAddressTrackerScreenshot.svg";
+import TodoApp from "../../assets/projects/todoapp/todoAppScreenshot.svg";
 import ExpenseTracker from "../../assets/projects/expensetracker/expenseTrackerScreenshot.svg";
 
 const projectsArray = [
@@ -26,51 +27,6 @@ const projectsArray = [
   },
   {
     id: 2,
-    coverImage: AdviceGenerator,
-    imageBackground: "#1F2632",
-    title: "Advice Generator App",
-    description: (
-      <p className="projectCardInfoDescription">
-        An advice generator app built using HTML, CSS, JS and the{" "}
-        <a href="https://api.adviceslip.com/">Advice Slip API</a>.
-      </p>
-    ),
-    liveURL: "https://jemeni-advice-generator.netlify.app/",
-    sourceCodeURL:
-      "https://github.com/Jemeni11/FrontendMentor/tree/04-advice-generator-app-main",
-  },
-  {
-    id: 3,
-    coverImage: TipCalculator,
-    imageBackground: "#C5E4E7",
-    title: "Tip Calculator",
-    description: (
-      <p className="projectCardInfoDescription">
-        A tip calculator app that helps to you calculate the tip and split the
-        total bill between friends!
-      </p>
-    ),
-    liveURL: "https://jemeni-tip-calculator.netlify.app/",
-    sourceCodeURL:
-      "https://github.com/Jemeni11/FrontendMentor/tree/06-tip-calculator-app-main",
-  },
-  {
-    id: 4,
-    coverImage: Splitter,
-    imageBackground: "#161d2b",
-    title: "Tip Calculator Mobile App (Splitter)",
-    description: (
-      <p className="projectCardInfoDescription">
-        Splitter helps to you calculate the tip and split the total bill between
-        friends! Use the <a href="https://expo.dev/client">Expo Go</a> app to
-        open the live URL.
-      </p>
-    ),
-    liveURL: "https://expo.dev/@jemeni11/tip-calculator",
-    sourceCodeURL: "https://github.com/Jemeni11/Tip-Splitter-Mobile-App",
-  },
-  {
-    id: 5,
     coverImage: IPTracker,
     imageBackground: "#161d2b",
     title: "IP Address Tracker",
@@ -86,9 +42,67 @@ const projectsArray = [
     sourceCodeURL:
       "https://github.com/Jemeni11/FrontendMentor/tree/09-ip-address-tracker-main",
   },
-
+  {
+    id: 3,
+    coverImage: TodoApp,
+    imageBackground: "none",
+    title: "Todo App",
+    description: (
+      <p className="projectCardInfoDescription">
+        The classic todo app with a dark/light theme toggle.
+      </p>
+    ),
+    liveURL: "https://jemeni-todo-app.netlify.app/",
+    sourceCodeURL:
+      "https://github.com/Jemeni11/FrontendMentor/tree/10-todo-app-main",
+  },
+  {
+    id: 4,
+    coverImage: TipCalculator,
+    imageBackground: "#C5E4E7",
+    title: "Tip Calculator",
+    description: (
+      <p className="projectCardInfoDescription">
+        A tip calculator app that helps to you calculate the tip and split the
+        total bill between friends!
+      </p>
+    ),
+    liveURL: "https://jemeni-tip-calculator.netlify.app/",
+    sourceCodeURL:
+      "https://github.com/Jemeni11/FrontendMentor/tree/06-tip-calculator-app-main",
+  },
+  {
+    id: 5,
+    coverImage: Splitter,
+    imageBackground: "#161d2b",
+    title: "Tip Calculator Mobile App (Splitter)",
+    description: (
+      <p className="projectCardInfoDescription">
+        Splitter helps to you calculate the tip and split the total bill between
+        friends! Use the <a href="https://expo.dev/client">Expo Go</a> app to
+        open the live URL.
+      </p>
+    ),
+    liveURL: "https://expo.dev/@jemeni11/tip-calculator",
+    sourceCodeURL: "https://github.com/Jemeni11/Tip-Splitter-Mobile-App",
+  },
   {
     id: 6,
+    coverImage: AdviceGenerator,
+    imageBackground: "#1F2632",
+    title: "Advice Generator App",
+    description: (
+      <p className="projectCardInfoDescription">
+        An advice generator app built using HTML, CSS, JS and the{" "}
+        <a href="https://api.adviceslip.com/">Advice Slip API</a>.
+      </p>
+    ),
+    liveURL: "https://jemeni-advice-generator.netlify.app/",
+    sourceCodeURL:
+      "https://github.com/Jemeni11/FrontendMentor/tree/04-advice-generator-app-main",
+  },
+  {
+    id: 7,
     coverImage: ExpenseTracker,
     imageBackground: "white",
     title: "Expense Tracker",
