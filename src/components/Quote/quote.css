@@ -21,13 +21,19 @@
 }
 
 .QuoteContainer blockquote p::before {
-  content: '\201C';
+  content: "\201C";
 }
 
 .QuoteContainer blockquote p::after {
-  content: '\201D';
+  content: "\201D";
 }
 
 .QuoteContainer figcaption {
   padding-bottom: 0.5rem;
+}
+
+@media all and (max-width: 530px) {
+  .QuoteContainer {
+    width: 85%;
+  }
 }

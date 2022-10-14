@@ -7,7 +7,6 @@ import Python from "./Python.svg";
 import StyledComponents from "./StyledComponents.svg";
 import Vite from "./Vite.svg";
 import Yarn from "./Yarn.svg";
-import JSON from "./JSON.svg";
 import Expo from "./Expo.svg";
 import PyCharm from "./PyCharm.svg";
 import VSCode from "./VSCode.svg";
@@ -30,7 +29,6 @@ export {
   StyledComponents,
   Vite,
   Yarn,
-  JSON,
   Expo,
   PyCharm,
   VSCode,
