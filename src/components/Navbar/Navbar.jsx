@@ -1,7 +1,7 @@
-import NavBarLink from "./NavBarLink";
-import "./navbar.css";
-import Logo from "../../assets/favicons/favicon.ico";
 import { Link } from "react-router-dom";
+import NavBarLink from "./NavBarLink";
+import Logo from "../../assets/favicons/favicon.ico";
+import "./navbar.css";
 
 function Navbar() {
   return (

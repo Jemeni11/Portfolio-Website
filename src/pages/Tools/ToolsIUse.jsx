@@ -9,7 +9,6 @@ import {
   StyledComponents,
   Vite,
   Yarn,
-  JSON,
   Expo,
   PyCharm,
   VSCode,
@@ -80,13 +79,6 @@ function ToolsIUse() {
       toolUrl: "https://yarnpkg.com/",
       cssFilter:
         "invert(46%) sepia(51%) saturate(649%) hue-rotate(154deg) brightness(95%) contrast(88%)",
-    },
-    {
-      title: "JSON",
-      imageURL: JSON,
-      toolUrl: "https://json.org/",
-      cssFilter:
-        "invert(0%) sepia(0%) saturate(7500%) hue-rotate(327deg) brightness(96%) contrast(104%)",
     },
     {
       title: "React Native",

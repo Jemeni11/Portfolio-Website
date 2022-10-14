@@ -9,6 +9,7 @@ import Splitter from "../../assets/projects/splitter/splitterScreenshot.svg";
 import IPTracker from "../../assets/projects/ipaddresstracker/IPAddressTrackerScreenshot.svg";
 import TodoApp from "../../assets/projects/todoapp/todoAppScreenshot.svg";
 import ExpenseTracker from "../../assets/projects/expensetracker/expenseTrackerScreenshot.svg";
+import RestCountriesAPI from "../../assets/projects/restcountriesapi/RestCountriesAPIScreenshot.png";
 
 const projectsArray = [
   {
@@ -24,6 +25,22 @@ const projectsArray = [
     ),
     liveURL: "https://jemeni-react-redux-shopping-app.netlify.app/",
     sourceCodeURL: "https://github.com/Jemeni11/React-Redux-Shopping-App",
+  },
+  {
+    id: 10,
+    coverImage: RestCountriesAPI,
+    imageBackground: "transparent",
+    title: "Countries App",
+    description: (
+      <p className="projectCardInfoDescription">
+        A website that pulls country data from the{" "}
+        <a href="https://restcountries.com/">REST Countries API</a> and displays
+        it.
+      </p>
+    ),
+    liveURL: "https://jemeni-rest-countries.netlify.app/",
+    sourceCodeURL:
+      "https://github.com/Jemeni11/FrontendMentor/tree/11-rest-countries-api",
   },
   {
     id: 2,
