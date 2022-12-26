@@ -8,7 +8,7 @@ function ContactCard({ image, title, url, attribution = "", onClick }) {
       </div>
       <div className="contactCardTitleContainer">
         <p>
-          <a href={url}>{title}</a>
+          <a href={url} target="_blank">{title}</a>
         </p>
       </div>
     </div>
