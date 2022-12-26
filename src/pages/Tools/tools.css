@@ -1,13 +1,20 @@
 .toolsContainer {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(12rem, 1fr));
-  margin-bottom: 1rem;
+  column-gap: calc(1rem + 1vw);
+  margin: 1rem 0;
+  padding-inline: 1rem;
 }
 
 .toolsIconTile {
   display: flex;
   align-items: center;
-  transition: transform 250ms;
+  transition: transform 250ms ease;
+}
+
+.toolsIconTile img,
+.toolsIconTile p {
+  flex: 2;
 }
 
 .toolsIconTile:hover {
@@ -17,4 +24,26 @@
 
 .toolsIconTile a {
   color: var(--Snow);
+}
+
+@media all and (max-width: 530px) {
+  .toolsIconTile {
+    flex-direction: column;
+  }
+
+  .toolsIconTile img {
+    flex: 4;
+  }
+
+  .toolsIconTile p {
+    flex: 2;
+  }
+
+  .toolsContainer {
+    row-gap: 1.5rem;
+  }
+
+  .toolsIconTile:hover {
+    transform: none;
+  }
 }
