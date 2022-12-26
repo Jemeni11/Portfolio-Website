@@ -79,3 +79,10 @@ a {
     font-size: 4rem;
   }
 }
+
+@media all and (max-width: 530px) {
+  .pageHeader1 {
+    font-size: 3.5rem;
+    text-align: center;
+  }
+}
