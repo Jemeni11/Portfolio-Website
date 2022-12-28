@@ -18,6 +18,7 @@ import LinkedIn from "./LinkedIn.svg";
 import Twitter from "./Twitter.svg";
 import Devto from "./Devto.svg";
 import Hashnode from "./Hashnode.svg";
+import Discord from "./Discord-mark-black.svg"
 
 export {
   HTML,
@@ -39,4 +40,5 @@ export {
   Twitter,
   Devto,
   Hashnode,
+  Discord
 };

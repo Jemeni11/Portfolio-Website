@@ -1,7 +1,7 @@
 import ContactCard from "./ContactCard";
 import { Quote, PageTemplate } from "../../components";
 import "./contact.css";
-import { Mail, LinkedIn, Twitter, Devto, Hashnode } from "../../assets/icons";
+import { Mail, LinkedIn, Twitter, Devto, Hashnode, Discord } from "../../assets/icons";
 
 function Contact() {
   const socials = [
@@ -18,6 +18,11 @@ function Contact() {
         "LinkedIn, the LinkedIn logo, the IN logo and InMail are registered trademarks or trademarks of LinkedIn Corporation and its affiliates in the United States and/or other countries.",
     },
     { title: "Twitter", url: "https://twitter.com/Jemeni11_", image: Twitter },
+    {
+      title: "Discord",
+      url: "https://discord.com/users/890338018832039966",
+      image: Discord,
+    },
     { title: "Dev.to", url: "https://dev.to/jemeni11", image: Devto },
     {
       title: "Hashnode",
@@ -34,13 +39,13 @@ function Contact() {
   };
   return (
     <PageTemplate>
-      <Quote
-        author="Garrison Keillor"
-        quote="Be well, do good work, and keep in touch."
-        citeLink="https://quotefancy.com/quote/1011786/Garrison-Keillor-Be-well-do-good-work-and-keep-in-touch"
-      />
       <section className="pageSection flex-container-align-center">
         <h1 className="pageHeader1">Contact Me</h1>
+        <Quote
+          author="Garrison Keillor"
+          quote="Be well, do good work, and keep in touch."
+          citeLink="https://quotefancy.com/quote/1011786/Garrison-Keillor-Be-well-do-good-work-and-keep-in-touch"
+        />
         <div className="socialsContainer">
           {socials.map((social, index) => (
             <ContactCard
