@@ -17,7 +17,7 @@
 
 .projectSectionGrid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(41ch, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(40ch, 1fr));
   gap: 1rem;
   margin: 2rem 0;
   width: 100%;
@@ -25,7 +25,7 @@
 
 .projectCard {
   width: 100%;
-  max-width: 41ch;
+  max-width: 40ch;
   display: flex;
   flex-direction: column;
   justify-content: stretch;
