@@ -1,6 +1,5 @@
-import React from "react";
 import "./projects.css";
-import { Quote, CardLikeButton } from "../../components";
+import { PageTemplate, Quote, CardLikeButton } from "../../components";
 
 import ShoppingApp from "../../assets/projects/shoppingapp/Cart.svg";
 import AdviceGenerator from "../../assets/projects/advicegenerator/adviceGeneratorApp.svg";
@@ -206,14 +205,14 @@ const ProjectCard = ({
 
 function Projects() {
   return (
-    <div className="page">
-      <Quote
-        citeLink="https://www.azquotes.com/quote/632647?ref=projects"
-        quote="I see myself working, making a living and doing projects that I'm passionate about, regardless of the medium."
-        author="Matt Bomer"
-      />
+    <PageTemplate>
       <section className="pageSection">
         <h1 className="pageHeader1">My Projects</h1>
+        <Quote
+          citeLink="https://www.azquotes.com/quote/632647?ref=projects"
+          quote="I see myself working, making a living and doing projects that I'm passionate about, regardless of the medium."
+          author="Matt Bomer"
+        />
         <div className="projectCardContainer">
           {projectsArray.map((projectObject) => (
             <ProjectSection
@@ -224,7 +223,7 @@ function Projects() {
           ))}
         </div>
       </section>
-    </div>
+    </PageTemplate>
   );
 }
 
