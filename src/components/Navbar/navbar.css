@@ -15,10 +15,18 @@
   text-transform: uppercase;
 }
 
+.NavCheckBoxLabel,
+#NavCheckBox {
+  display: none;
+}
+
+.NavBar ul {
+  list-style-type: none;
+}
+
 .NavBarMain {
   justify-content: space-between;
   gap: 1rem;
-  list-style-type: none;
 }
 
 .NavBarLink {
@@ -35,22 +43,38 @@
 
 @media all and (max-width: 530px) {
   .NavBar {
-    width: 95%;
-    margin-bottom: 6rem;
-    justify-content: center;
+    width: calc(100% - 6rem);
+    margin: 0.5rem 3rem;
+    justify-content: space-between;
   }
-  
-  
 
-  .NavBarMain {
+  .NavCheckBoxLabel {
+    min-width: 50px;
+    min-height: 50px;
+    z-index: 999;
+    display: block;
+  }
+
+  #NavCheckBox {
+    display: none;
+  }
+
+  #NavCheckBox:not(:checked) ~ .NavBarMain {
+    display: none;
+  }
+
+  #NavCheckBox:checked ~ .NavBarMain {
+    background-color: hsla(0, 0%, 0%, 1);
+    padding: 1rem;
+    padding-top: calc(1rem + 50px);
+    border-radius: 0.5rem;
+    flex-direction: column;
+    width: 100%;
+    height: 70vh;
     position: absolute;
-    top: 3rem;
-    font-size: 0.9rem;
-    display: grid;
-    width: 75%;
-    margin: 0 10%;
-    grid-template-columns: 1fr 1fr;
-    /* grid-template-rows: 1fr 1fr; */
-    gap: 0;
-  }  
+    right: 0.1%;
+    top: 0.1vh;
+    z-index: 998;
+    font-size: 1rem;
+  }
 }

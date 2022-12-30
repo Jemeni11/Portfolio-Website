@@ -20,6 +20,8 @@ import Devto from "./Devto.svg";
 import Hashnode from "./Hashnode.svg";
 import Discord from "./Discord-mark-black.svg"
 
+import Menu from "./icons8-menu-rounded.svg"
+
 export {
   HTML,
   CSS3,
@@ -40,5 +42,6 @@ export {
   Twitter,
   Devto,
   Hashnode,
-  Discord
+  Discord,
+  Menu
 };
