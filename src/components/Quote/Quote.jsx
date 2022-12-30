@@ -1,4 +1,3 @@
-import React from "react";
 import "./quote.css";
 
 const Quote = ({ citeLink, quote, author, work = undefined }) => {
@@ -9,7 +8,7 @@ const Quote = ({ citeLink, quote, author, work = undefined }) => {
           <p>{quote}</p>
         </blockquote>
         <figcaption>
-          —{author}
+          — {author}
           {work && <cite>`, ${work}`</cite>}
         </figcaption>
       </figure>
